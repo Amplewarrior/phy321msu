@@ -1,0 +1,38 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: About the course
+  chapters:
+  - file: admin/teachers
+  - file: admin/textbooks
+  - file: admin/schedule-cal
+  - file: admin/links
+- caption: Introductory Material
+  numbered: false
+  chapters:
+  - file: lecture-notes/chapter1-overview.ipynb
+  - file: lecture-notes/chapter1.ipynb
+  # - file: lecture-notes/chapter2-overview.ipynb
+  - file: lecture-notes/chapter2.ipynb
+  # - file: lecture-notes/chapter3-overview.ipynb
+  - file: lecture-notes/chapter3.ipynb
+  # - file: lecture-notes/chapter4-overview.ipynb
+  - file: lecture-notes/chapter4.ipynb
+- caption: Advanced Topics
+  numbered: false
+  chapters:
+  # - file: lecture-notes/chapter5-overview.ipynb
+  - file: lecture-notes/chapter5.ipynb
+  # - file: lecture-notes/chapter6-overview.ipynb
+  - file: lecture-notes/chapter6.ipynb
+  # - file: lecture-notes/chapter7-overview.ipynb
+  - file: lecture-notes/chapter7.ipynb
+  # - file: lecture-notes/chapter8-overview.ipynb
+  - file: lecture-notes/chapter8.ipynb
+#- caption: Weekly assignments, midterms and final projects with solutions
+  #numbered: false
+  #chapters:
+  #- file: homeworks/hw1.ipynb
