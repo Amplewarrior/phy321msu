@@ -7,15 +7,15 @@ parts:
 - caption: About the course
   chapters:
   - file: admin/teachers
+  - file: admin/resources
   - file: admin/textbooks
   - file: admin/schedule-cal
   - file: admin/links
 - caption: Introductory Material
   numbered: false
   chapters:
-  - file: lecture-notes/chapter1-overview.ipynb
   - file: lecture-notes/chapter1.ipynb
-  # - file: lecture-notes/chapter2-overview.ipynb
+  - file: lecture-notes/chapter2-overview.ipynb
   - file: lecture-notes/chapter2.ipynb
   # - file: lecture-notes/chapter3-overview.ipynb
   - file: lecture-notes/chapter3.ipynb
@@ -32,7 +32,11 @@ parts:
   - file: lecture-notes/chapter7.ipynb
   # - file: lecture-notes/chapter8-overview.ipynb
   - file: lecture-notes/chapter8.ipynb
-#- caption: Weekly assignments, midterms and final projects with solutions
-  #numbered: false
-  #chapters:
-  #- file: homeworks/hw1.ipynb
+# - caption: Slides
+#   numbered: false
+#   chapters:
+#   - file: slides/cw1.ipynb
+- caption: Weekly assignments, midterms and final projects with solutions
+  numbered: false
+  chapters:
+  - file: homeworks/hw1.ipynb
