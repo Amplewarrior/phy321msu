@@ -36,6 +36,10 @@ parts:
 #   numbered: false
 #   chapters:
 #   - file: slides/cw1.ipynb
+- caption: In-class handouts, activities, and other materials
+  numbered: false
+  chapters:
+  - file: in-class/cw1-python-test.ipynb
 - caption: Weekly assignments, midterms and final projects with solutions
   numbered: false
   chapters:
